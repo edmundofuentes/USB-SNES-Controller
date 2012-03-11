@@ -8,7 +8,7 @@ Work in progress..
 Note: this is **NOT** a plugNplay solution. It doesn't use HID (it wasn't available until the new Arduino UNO).
 
 ## Circuit
-![Schematic made in Fritzing](/schematic/arduino-snespad_screenshot.png)
+![Schematic made in Fritzing](mundofr/USB-SNES-Controller/raw/master/schematic/arduino-snespad_screenshot.png)
 
 ## Instructions
 
