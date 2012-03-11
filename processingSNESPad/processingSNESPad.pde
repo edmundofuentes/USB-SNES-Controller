@@ -26,21 +26,23 @@ void setup(){
  // create 'robot' for keypresses
  try{
     r = new Robot();
-  }catch(AWTException a){}
+  } catch(AWTException a){}
+ 
+ // draw the window
+ background(53);
  
  // initialize font
  font = loadFont("Tahoma.vlw");
  fontSmall = loadFont("Tahoma-small.vlw");
   
+ // write in the box
+ textFont(font); 
+ text("SNESpad", 35, 130);
+ textFont(fontSmall);
+ text("by: Edmundo Fuentes", 95, 143);  
 }
+
 void draw() {
-  // set the background color with the color values:
-  background(53);
-  // write in the box
-  textFont(font); 
-  text("SNESpad", 35, 130);
-  textFont(fontSmall);
-  text("by: Edmundo Fuentes", 95, 143);
 }
 
 void serialEvent(Serial myPort){

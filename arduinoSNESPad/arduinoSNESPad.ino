@@ -1,4 +1,4 @@
-// DEFINITIONS
+// BIT DEFINITIONS
 #define SNES_B       0x01
 #define SNES_Y       0x02
 #define SNES_SELECT  0x04
